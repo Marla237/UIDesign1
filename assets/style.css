@@ -4,15 +4,25 @@
 	box-sizing: border-box;
 }
 
+body  {
+	background-image: url("graphic.png");
+	background-size: cover;
+}
+
+.cursive {
+	font-family: cursive;
+}
+
 /* adjusting fonts */
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	color: gold;
+	font-family: -apple-system, BlinkMacSystemFont, Courier New, monospace;
 	transition: background 500ms ease;
 }
 
 p, li {
-	font-size:  22px;
+	font-size:  30px;
 	line-height: 30px;
 }
 

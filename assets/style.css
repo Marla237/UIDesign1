@@ -4,9 +4,6 @@
 	box-sizing: border-box;
 }	
 
-.cursive {
-	font-family: cursive;
-}
 
 /* adjusting fonts */
 
@@ -22,9 +19,14 @@ body {
 	padding: 20px;
 }
 
+a {
+	color: lime;
+	text-decoration: none;
+}
+
 p, li {
-	font-size:  30px;
-	line-height: 30px;
+	font-size:  25px;
+	line-height: 25px;
 }
 
 /* adjusting spacing */
@@ -35,6 +37,8 @@ p, li {
 
 h1, p {
 	margin-bottom:  20px;
+	font-size: 40px;
+	font-weight: 500;
 }
 
 ul, ol {

@@ -1,0 +1,382 @@
+body {
+	background: white;
+}
+
+#align {
+	display: flex;
+  align-items: center;
+  justify-content: center;	
+  height: 100vh;
+}
+
+#stage {
+	width: 900px;
+	height: 556px;
+	margin: auto;
+	background: lemonchiffon;
+	position: relative;
+}
+
+#stand-edge-right {
+	width: 93px;
+	height: 194px;
+	background-image: linear-gradient(to right, darkgrey, grey);
+	top: 395px;
+	left: 593px;
+	position: absolute;
+	transform: skewY(325deg);
+}
+
+#stand-edge-left {
+	width: 350px;
+	height: 195px;
+	background-image: linear-gradient(to right, aliceblue, lightgrey);
+	position: absolute;
+	top: 409px;
+	left: 245px;
+	transform: skewY(6deg);
+}
+
+#stand {
+	width: 398px;
+	height: 66px;
+	background-image: linear-gradient(to right, ghostwhite, darkgrey);
+	position: absolute;
+	top: 346px;
+	left: 266px;
+	transform: skewX(304deg) skewY(5deg);
+}
+
+#apple {
+	width: 75px;
+	height: 75px;
+	background: red;
+	clip-path: polygon(50% 23%, 83% 18%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 18% 18%);
+	top: 306px;
+	left: 325px;
+	position: absolute;
+	background-image: linear-gradient(to bottom right, rgb(240, 151, 99), rgb(255, 109,76));
+}
+
+#peach {
+	width: 50px;
+	height: 50px;
+	background: lightpink;
+	clip-path: circle(50.0% at 50% 50%);
+	top: 268px;
+	left: 457px;
+	position: absolute;
+	background-image: linear-gradient(to bottom right, lightpink, rgb(255, 133, 112));
+}
+
+#peach-line {
+	width: 80px;
+	height: 80px;
+	background: rgb(245, 124, 137);
+	top: 256px;
+	left: 456px;
+	clip-path: polygon(34% 17%, 41% 18%, 50% 27%, 53% 42%, 51% 61%, 40% 75%, 34% 76%, 34% 74%, 40% 73%, 50% 60%, 51% 39%, 48% 26%, 41% 20%);
+	position: absolute;
+}
+
+#pot {
+	width: 215px;
+	height: 172px;
+	background-image: linear-gradient( to right, ghostwhite, rgb(240, 240, 250), rgb(185, 190, 210), rgb(165, 165, 175));
+	clip-path: polygon(26% 18%, 20% 22%, 24% 26%, 24% 37%, 28% 45%, 31% 48%, 31% 62%, 31% 71%, 34% 76%, 40% 78%, 54% 79%, 65% 78%, 70% 75%, 71% 71%, 72% 61%, 72% 37%, 68% 26%, 71% 22%, 68% 20%, 60% 18%, 46% 18%, 36% 21%, 37% 26%);
+	position: absolute;
+	top: 271px;
+	left: 358px;
+}
+
+#banana {
+	width: 160px;
+	height: 160px;
+	background-image: linear-gradient( to bottom right, yellow, gold, goldenrod);
+	clip-path: polygon(17% 46%, 29% 42%, 31% 43%, 32% 36%, 36% 32%, 51% 28%, 71% 29%, 82% 36%, 89% 50%, 87% 56%, 82% 57%, 75% 55%, 69% 49%, 56% 45%, 43% 44%, 35% 46%, 29% 45%, 24% 48%, 20% 49%);
+	position: absolute;
+	top: 205px;
+	left: 473px;
+}
+
+#banana-tip {
+	width: 25px;
+	height: 25px;
+	background: saddlebrown;
+	clip-path: polygon(32% 32%, 53% 27%, 68% 34%, 68% 45%, 54% 54%, 42% 54%, 33% 45%);
+	position: absolute;
+	top: 279px;
+	left: 593px;
+}
+
+#pot-tip {
+	width: 10px;
+	height: 10px;
+	background-image: linear-gradient( to right, ghostwhite, rgb(210, 210, 240));
+	clip-path: circle(50.0% at 50% 50%);
+	position: absolute;
+	top: 303px;
+	left: 465px;
+}
+
+#book1 {
+	width: 145px;
+	height: 37px;
+	background: rgb(210, 210, 210);
+	top: 350px;
+	left: 520px;
+	position: absolute;
+	rotate: 358deg;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(200, 200, 200);
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#book1-cover {
+	width: 145px;
+	height: 45px;
+	background-image: linear-gradient(to right, rgb(35, 245, 50), rgb(35, 215, 50));
+	top: 306px;
+	left: 513px;
+	position: absolute;
+	transform: skewX(15deg);
+	rotate: 358deg;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(200, 200, 200);
+}
+
+#book1-edge {
+	width: 10px;
+	height: 33px;
+	background: rgb(35, 245, 50);
+	top: 332px;
+	left: 508px;
+	position: absolute;
+	transform: skewY(76deg);
+	rotate: 358deg;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(200, 200, 200);
+}
+
+#book2 {
+	width: 135px;
+	height: 25px;
+	background-image: linear-gradient( ghostwhite, gainsboro);
+	top: 318px;
+	left: 523px;
+	position: absolute;
+	rotate: 358deg;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+
+#book2-cover {
+	width: 135px;
+	height: 37px;
+	background-image: linear-gradient( ghostwhite, gainsboro);
+	top: 280px;
+	left: 516px;
+	position: absolute;
+	transform: skewX(15deg);
+	rotate: 358deg;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+
+#book2-edge {
+	width: 9px;
+	height: 23px;
+	background: ghostwhite;
+	top: 303px;
+	left: 512px;
+	position: absolute;
+	transform: skewY(76deg);
+	rotate: 358deg;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+
+#book3 {
+	width: 97px;
+	height: 10px;
+	background: burlywood;
+	top: 300px;
+	left: 529px;
+	position: absolute;
+	rotate: 358deg;
+	border-style: solid;
+	border-width: 1px;
+	border-color: khaki;
+}
+
+#book3-cover {
+	width: 97px;
+	height: 27px;
+	background-image: linear-gradient(bisque, burlywood);
+	top: 272px;
+	left: 524px;
+	position: absolute;
+	transform: skewX(15deg);
+	rotate: 358deg;
+	border-style: solid;
+	border-width: 1px;
+	border-color: beige;
+}
+
+#book3-edge {
+	width: 6px;
+	height: 8px;
+	background: bisque;
+	top: 288px;
+	left: 521px;
+	position: absolute;
+	transform: skewY(76deg);
+	rotate: 358deg;
+	border-style: solid;
+	border-width: 1px;
+	border-color: beige;
+}
+
+#round-vase {
+	width: 150px;
+	height: 150px;
+	background-image: linear-gradient( to right, ghostwhite, rgb(240, 240, 250), rgb(185, 190, 210), rgb(165, 165, 175));
+	clip-path: circle(20% at 50% 50%);
+	top: 189px;
+	left: 486px;
+	position: absolute;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+#vase-tip {
+	width: 36px;
+	height: 30px;
+	background-image: linear-gradient( to right, ghostwhite, rgb(240, 240, 250), rgb(185, 190, 210), rgb(165, 165, 175));
+	clip-path: polygon(19% 20%, 35% 25%, 60% 25%, 73% 20%, 69% 42%, 74% 55%, 20% 55%, 24% 42%);
+	top: 219px;
+	left: 544px;
+	position: absolute;
+}
+
+#smallflowerstick {
+	width: 78px;
+	height: 75px;
+	background: darkgreen;
+	clip-path: polygon(32% 24%, 40% 37%, 45% 53%, 47% 76%, 47% 97%, 48% 96%, 48% 75%, 46% 52%, 41% 37%, 36% 28%);
+	top: 171px;
+	left: 520px;
+	position: absolute;
+	rotate: 196deg;
+}
+
+#small-flower {
+	width: 80px;
+	height: 70px;
+	background-image: linear-gradient(to right, mistyrose, lightpink);
+	clip-path: polygon(12% 44%, 21% 48%, 28% 37%, 38% 41%, 45% 35%, 53% 40%, 59% 32%, 63% 36%, 71% 31%, 80% 36%, 86% 32%, 84% 42%, 84% 51%, 80% 57%, 68% 62%, 58% 66%, 54% 73%, 46% 67%, 33% 65%, 23% 61%, 19% 54%);
+	top: 127px;
+	left: 536px;
+	position: absolute;
+	rotate: 35deg;
+}
+
+#big-flower {
+	width: 100px;
+	height: 100px;
+	background-image: linear-gradient(to right, lightyellow, gold);
+	clip-path: polygon(12% 44%, 21% 48%, 28% 37%, 38% 41%, 45% 35%, 53% 40%, 59% 32%, 63% 36%, 71% 31%, 80% 36%, 86% 32%, 84% 42%, 84% 51%, 80% 57%, 68% 62%, 58% 66%, 54% 73%, 46% 67%, 33% 65%, 23% 61%, 19% 54%);
+	top: 100px;
+	left: 484px;
+	position: absolute;
+	rotate: 350deg;
+}
+
+#bigflowerstick {
+	width: 100px;
+	height: 100px;
+	background: darkgreen;
+	clip-path: polygon(32% 24%, 40% 37%, 45% 53%, 47% 76%, 47% 97%, 48% 96%, 48% 75%, 46% 52%, 41% 37%, 36% 28%);
+	top: 138px;
+	left: 511px;
+	position: absolute;
+}
+
+#flower-line {
+	width: 1.5px;
+	height: 150px;
+	background: darkseagreen;
+	top: 123px;
+	left: 553px;
+	position: absolute;
+	rotate: 355deg;
+}
+
+#sprout {
+	width: 38px;
+	height: 50px;
+	background-image: linear-gradient( to right, lightgoldenrodyellow, lightgreen);
+	clip-path: polygon(37% 12%, 48% 13%, 59% 11%, 61% 26%, 69% 36%, 75% 49%, 76% 59%, 67% 69%, 55% 76%, 45% 77%, 36% 75%, 25% 67%, 14% 55%, 13% 47%, 16% 37%, 28% 26%, 37% 21%);
+	top: 89px;
+	left: 533px;
+	position: absolute;
+	rotate: 20deg;
+}
+
+#leaf-1 {
+	width: 80px;
+	height: 80px;
+	background-image: linear-gradient(to right, lightgreen, darkgreen);
+	clip-path: polygon(25% 17%, 36% 18%, 47% 21%, 53% 28%, 53% 36%, 48% 45%, 49% 54%, 56% 60%, 60% 64%, 61% 73%, 50% 74%, 38% 71%, 29% 65%, 23% 55%, 22% 42%, 26% 33%, 28% 25%);
+	top: 142px;
+	left: 506px;
+	position: absolute;
+}
+
+#lead-2 {
+	width: 50px;
+	height: 50px;
+	background-image: linear-gradient( to bottom right, lightgreen, darkgreen);
+	clip-path: polygon(21% 31%, 29% 33%, 32% 41%, 37% 42%, 46% 39%, 53% 38%, 62% 44%, 67% 52%, 75% 57%, 70% 58%, 63% 64%, 52% 67%, 36% 64%, 28% 58%, 26% 48%, 28% 44%, 29% 40%, 27% 35%);
+	top: 182px;
+	left: 517px;
+	position: absolute;
+	rotate: 321deg;
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/

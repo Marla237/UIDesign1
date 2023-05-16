@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "leMurmure";
+  src: url("LeMurmure-Regular.woff2") format("woff2");
+}
+
 * {
 	margin:  0px;
 	padding:  0px;
@@ -11,8 +16,8 @@ body {
 	background: white;
 	background-size: cover;
 	color: black;
-	font-family: -apple-system, BlinkMacSystemFont, Courier New, monospace;
-	transition: background 500ms ease;
+	font-family: 'leMurmure', monospace;
+	margin-left: 100px;
 }
 
 #grid {
@@ -25,8 +30,8 @@ a {
 }
 
 p, li {
-	font-size:  25px;
-	line-height: 25px;
+	font-size:  30px;
+	line-height: 35px;
 }
 
 /* adjusting spacing */
@@ -35,9 +40,12 @@ p, li {
 	padding: 20px;
 }
 
+.desc {
+	font-size: 55px;
+}
 h1, p {
 	margin-bottom:  20px;
-	font-size: 40px;
+	font-size: 70px;
 	font-weight: 500;
 }
 
@@ -46,8 +54,12 @@ ul, ol {
 }
 
 h3 {
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: 500;
+}
+
+a:hover {
+	color: purple;
 }
 
 /* uncomment the code below to set the grid */

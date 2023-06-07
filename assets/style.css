@@ -54,6 +54,7 @@ p, li {
 
 #left-column {
 	padding: 20px;
+	justify-content: center;
 }
 
 .desc {
